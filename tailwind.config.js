@@ -11,6 +11,8 @@ export default {
 				textPrimary: '#2C2D2E',
 				textSecondary: '#919399',
 				primary: '#465EFD',
+				primaryHover: '#384bca',
+				primaryPressed: '#2a3898',
 				bgPrimary: '#FBFBFB',
 				bgTertiary: '#F0F0F0',
 				bgSecondary: '#EDEFFF',
