@@ -21,6 +21,12 @@ export default {
 				overlay: 'rgba(0, 16, 61, 0.48)',
 				white: '#FFFFFF',
 				black: '#000000'
+			},
+			boxShadow: {
+				dropdown: '0px 4px 16px 0px rgba(0, 0, 0, 0.08)',
+				header: '0px 0px 2px 0px rgba(14, 31, 53, 0.12)',
+				shadowShape:
+					' 0px 8px 24px -4px rgba(24, 39, 75, 0.02), 0px 6px 12px -6px rgba(24, 39, 75, 0.03)'
 			}
 		}
 	},
