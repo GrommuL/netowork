@@ -1,6 +1,6 @@
 import { Button } from '@/shared/ui'
+import { Container } from '@/shared/ui'
 import { HeaderLinkButton, HeaderLogoLinkButton } from './ui'
-import { Container } from '@/shared/ui/Container'
 
 export const Header = () => {
 	return (
