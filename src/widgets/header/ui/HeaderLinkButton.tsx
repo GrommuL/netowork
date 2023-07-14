@@ -8,7 +8,10 @@ interface HeaderLinkButton {
 
 export const HeaderLinkButton: FC<HeaderLinkButton> = ({ label, href }) => {
 	return (
-		<Link className='p-[16px] hover:text-primaryHover transition' to={href}>
+		<Link
+			className='p-[16px] hover:text-primaryHover active:text-primaryPressed transition h-full'
+			to={href}
+		>
 			{label}
 		</Link>
 	)
